@@ -1,0 +1,14 @@
+#!/bin/bash
+read -p "Enter file extention;" ext
+
+case $ext in
+        ".txt")
+                ls -ltrh *.txt
+        ;;
+        ".sh")
+                ls -ltrh *.sh
+        ;;
+        *)
+                echo "You have entered wrong extention"
+        ;;
+esac
