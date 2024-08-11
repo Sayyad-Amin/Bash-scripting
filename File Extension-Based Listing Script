@@ -2,10 +2,10 @@
 read -p "Enter file extention;" ext
 
 case $ext in
-        ".txt")
+        "txt")
                 ls -ltrh *.txt
         ;;
-        ".sh")
+        "sh")
                 ls -ltrh *.sh
         ;;
         *)
