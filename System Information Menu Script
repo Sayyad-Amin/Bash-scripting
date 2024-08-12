@@ -22,7 +22,7 @@ do
                         echo "Hostname is : $(hostname)"
                 ;;
                 3)
-                        echo "$(free -g)"
+                        echo "$(free -h)"
                 ;;
                 4)
                         echo "$(df -h)"
