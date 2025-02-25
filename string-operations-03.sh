@@ -7,7 +7,7 @@ TEXT="Hello, DevOps Engineer!"
 echo "String: $TEXT"
 echo "Length: ${#TEXT}"
 
-# 2. Extract a substring (starting at index 7, length 6)
+# 2. Extract a substring mostly this concept is known as slicing (starting at index 7, length 6)
 SUBSTRING=${TEXT:7:6}
 echo "Substring (7 to 6 chars): $SUBSTRING"
 
