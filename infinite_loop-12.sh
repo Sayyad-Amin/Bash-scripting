@@ -6,5 +6,5 @@
 while true
 do
     echo "Press CTRL+C to stop..."
-    sleep 2  # Wait 2 second before repeating
+    sleep 2s  # Wait 2 second before repeating
 done
