@@ -1,4 +1,5 @@
 # A function in Bash is a block of code that you can reuse multiple times. It helps avoid repetition and makes scripts organized and readable.
+# Arguments vs Parameters
 
 ----------------------------------
 
@@ -20,5 +21,14 @@ show_datetime() {
 }
 
 ----------------------------------
+
+#!/bin/bash
+
+greet() {
+    echo "Hello, $1! You are $2 years old."
+}
+
+# Calling function with arguments
+greet "Alice" 25  # "Alice" and "25" are arguments; $1 and $2 are parameters
 
 
