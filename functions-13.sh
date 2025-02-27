@@ -11,3 +11,14 @@ say_hello() {
 
 # Call function
 say_hello
+
+----------------------------------
+
+# Function to display the current date and time
+show_datetime() {
+    echo "Current date and time: $(date)"
+}
+
+----------------------------------
+
+
