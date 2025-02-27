@@ -5,10 +5,24 @@
 
 count=1
 
-until [[ $count -gt 5 ]]; do
+until [[ $count -gt 5 ]]
+do
     echo "Count: $count"
-    ((count++))  # Increment count
+    let count++  # Increment count
 done
 
 ----------------------------------------
 
+# Use Case: Keep prompting the user until they type "exit".
+
+#!/bin/bash
+
+input=""
+
+until [[ $input == "exit" ]]
+do
+    read -p "Enter something (type 'exit' to stop): " input
+    echo "You entered: $input"
+done
+
+echo "Goodbye!"
