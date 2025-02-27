@@ -1,5 +1,21 @@
 #!/bin/bash
 
+echo "Provide an option"
+echo "a for print current date"
+echo "b for list of scripts"
+echo "c to check the current location"
+read choice
+case $choice in
+        a) date;;
+        b) ls;;
+        c) pwd;;
+        *) echo "non a valid";;
+esac
+
+---------------------------------------------------
+
+#!/bin/bash
+
 read -p "Enter your favorite programming language: " language
 
 case $language in
